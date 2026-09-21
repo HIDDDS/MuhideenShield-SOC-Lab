@@ -53,7 +53,7 @@ ip addr
 
 The resulting configuration is documented in the accompanying screenshot:
 
-![Kali Network Configuration](../../screenshots/01-kali-network/kali-network-config.png)
+![Kali Network Configuration](../../screenshots/01-kali-network/kalinetworkconfig.png)
 
 ## Status
 
