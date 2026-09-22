@@ -80,7 +80,7 @@ This confirms that the Universal Forwarder recognizes the Splunk server at 172.2
 
 The forwarder status screenshot is stored separately under:
 
-![Splunk Universal Forwarder Status](screenshots/01-kali-network/forwarder-status.png)
+![Splunk Universal Forwarder Status](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/93f3a341917eeb579a6e2c9d4fa0996b9701ac8e/screenshots/01-kali-network/forwarder-status.png)
 
 5. Previous Splunk Analysis
 
