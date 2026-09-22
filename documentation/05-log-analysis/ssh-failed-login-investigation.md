@@ -69,7 +69,7 @@ This generated failed authentication activity that could be recorded by the Linu
 
 ### Evidence
 
-![Controlled SSH Failed Login](../../screenshots/04-log-analysis/ssh-failed-login-generation.png)
+[![Controlled SSH Failed Login](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/0e2f2c6a55cd2e54e02f50eca1cc48a0bf6397d3/screenshots/04-log-analysis/%20failed-ssh-login.png)
 
 ---
 
