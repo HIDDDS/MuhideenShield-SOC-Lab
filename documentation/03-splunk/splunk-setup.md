@@ -94,7 +94,7 @@ It should not, however, be treated as evidence that Kali authentication logs wer
 
 Evidence
 
-![Previous Splunk Analysis](../../screenshots/02-splunk/previous-splunk-analysis.png)
+![Previous Splunk Analysis](screenshots/02-splunk/previous-splunk-analysis.png)
 
 
 Current Status
