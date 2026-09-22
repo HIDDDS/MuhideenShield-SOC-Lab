@@ -39,7 +39,7 @@ The configuration contained:
 This confirms that a Splunk TCP receiving input is configured on port 9997.
 
 Evidence
-![Splunk TCP 9997 Receiver](../../screenshots/02-splunk/splunk-receiver-9997.png)
+![Splunk TCP 9997 Receiver](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/90dcec9a1f79be4f331704e96d189c054a856c14/screenshots/01-kali-network/splunk-receiver-9997.png)
 
 
 
