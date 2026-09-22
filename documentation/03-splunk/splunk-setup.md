@@ -24,7 +24,7 @@ The command confirmed that splunkd and its helper processes were running success
 
 Evidence
 
-[(My Splunk Status)](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/cf8b636d058d95363f3fe25c720f3a1550658ba7/screenshots/01-kali-network/Splunk-status.png)
+![Splunk Enterprise Running](../../screenshots/02-splunk/Splunk-status.png)
 
 2. Splunk Receiving Port
 
@@ -39,8 +39,7 @@ The configuration contained:
 This confirms that a Splunk TCP receiving input is configured on port 9997.
 
 Evidence
-![Splunk TCP 9997 Receiver](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/90dcec9a1f79be4f331704e96d189c054a856c14/screenshots/01-kali-network/splunk-receiver-9997.png)
-
+![Splunk TCP 9997 Receiver](../../screenshots/02-splunk/splunk-receiver-9997.png)
 
 
 
@@ -60,7 +59,7 @@ This confirms that Kali can establish a TCP connection to the Splunk receiver on
 An inverse host lookup failed message was also displayed. This relates to reverse hostname resolution and did not prevent the TCP connection from succeeding.
 
 Evidence
-![Kali to Splunk Connectivity](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/9bae78aea674a7e18b764e91562d828e2784ce35/screenshots/01-kali-network/kali-to-splunk-connectivity.png))
+![Kali to Splunk Connectivity](../../screenshots/02-splunk/kali-to-splunk-connectivity.png)
 
 4. Universal Forwarder Status 
 
@@ -80,7 +79,7 @@ This confirms that the Universal Forwarder recognizes the Splunk server at 172.2
 
 The forwarder status screenshot is stored separately under:
 
-![Splunk Universal Forwarder Status](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/93f3a341917eeb579a6e2c9d4fa0996b9701ac8e/screenshots/01-kali-network/forwarder-status.png)
+![Splunk Universal Forwarder Status](../../screenshots/03-forwarder/forwarder-status.png)
 
 5. Previous Splunk Analysis
 
@@ -94,7 +93,9 @@ It should not, however, be treated as evidence that Kali authentication logs wer
 
 Evidence
 
-![Previous Splunk Analysis](screenshots/02-splunk/previous-splunk-analysis.png)
+![Previous Splunk Analysis](../../screenshots/02-splunk/previous-splunk-analysis.png)
+
+![Splunk HTTP and Command Search](../../screenshots/02-splunk/splunk-http-command-search.png)
 
 
 Current Status
