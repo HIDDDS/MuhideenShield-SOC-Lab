@@ -24,7 +24,7 @@ The command confirmed that splunkd and its helper processes were running success
 
 Evidence
 
-(screenshots/01-kali-network/Splunk-status.png)
+[(My Splunk Status)](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/cf8b636d058d95363f3fe25c720f3a1550658ba7/screenshots/01-kali-network/Splunk-status.png)
 
 2. Splunk Receiving Port
 
