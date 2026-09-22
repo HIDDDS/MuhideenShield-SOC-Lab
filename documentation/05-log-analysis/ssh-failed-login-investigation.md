@@ -231,6 +231,12 @@ This investigation provided hands-on practice with:
 
 ## Conclusion
 
-This lab demonstrated a basic end-to-end SOC workflow: generating controlled authentication activity on a monitored endpoint, locating the resulting authentication events in Splunk, analysing the events, and documenting the findings.
+## Conclusion
 
-The next stage of the MuhideenShield SOC Lab will build on this investigation by developing a Splunk detection for repeated failed SSH authentication attempts and using that detection in a structured incident-investigation workflow.
+This investigation successfully demonstrated an end-to-end SOC log analysis workflow in a controlled lab environment.
+
+I generated a failed SSH authentication attempt on Kali Linux and investigated the resulting activity using Splunk. The authentication events were successfully identified from `/var/log/auth.log`, with Splunk showing the monitored Kali endpoint as the event host.
+
+Through this investigation, I gained practical experience with SSH authentication activity, Linux authentication logs, Splunk searching, log interpretation, evidence collection, and SOC investigation documentation.
+
+**Investigation Status: Completed**
