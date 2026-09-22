@@ -60,7 +60,7 @@ This confirms that Kali can establish a TCP connection to the Splunk receiver on
 An inverse host lookup failed message was also displayed. This relates to reverse hostname resolution and did not prevent the TCP connection from succeeding.
 
 Evidence
-![Kali to Splunk Connectivity](screenshots/01-kali-network/kali-to-splunk-connectivity.png)
+![Kali to Splunk Connectivity](https://github.com/HIDDDS/MuhideenShield-SOC-Lab/blob/9bae78aea674a7e18b764e91562d828e2784ce35/screenshots/01-kali-network/kali-to-splunk-connectivity.png))
 
 4. Universal Forwarder Status 
 
