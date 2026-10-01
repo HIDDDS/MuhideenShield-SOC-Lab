@@ -8,7 +8,7 @@ The project documents the complete process, including configuration, log forward
 
 ---
 
-## Wazuh phase: September 26–30, 2026
+## Wazuh phase
 
 I verified local authentication and sudo records against Wazuh events, investigated a Mac-to-Kali SSH session, recovered an unresponsive Docker deployment, and checked agent communication separately from event delivery.
 
