@@ -2,9 +2,26 @@
 
 MuhideenShield SOC Lab is a hands-on Security Operations Center (SOC) project I built to develop practical experience in security monitoring, log analysis, detection engineering, troubleshooting, and incident investigation.
 
-The lab uses **Kali Linux as a monitored endpoint** and **Splunk Enterprise as the SIEM platform**. Linux security logs are collected using the **Splunk Universal Forwarder** and sent to Splunk for analysis.
+The lab uses **Kali Linux as a monitored endpoint**. The initial phase used **Splunk Enterprise and the Splunk Universal Forwarder**. The current Wazuh phase uses a **Kali Wazuh agent and a single-node Docker deployment on macOS** to investigate authentication and sudo events.
 
 The project documents the complete process, including configuration, log forwarding, troubleshooting, security investigations, detection development, and lessons learned.
+
+---
+
+## Wazuh phase: September 26–30, 2026
+
+I verified local authentication and sudo records against Wazuh events, investigated a Mac-to-Kali SSH session, recovered an unresponsive Docker deployment, and checked agent communication separately from event delivery.
+
+- [Wazuh environment and validation scope](documentation/06-wazuh/README.md)
+- [SSH and sudo investigation](incidents/2026-09-26-30-wazuh-ssh-sudo.md)
+- [Troubleshooting and recovery](documentation/06-wazuh/troubleshooting.md)
+- [Commands explained](documentation/06-wazuh/commands.md)
+- [Lessons and next steps](lessons-learned/wazuh-authentication-lab.md)
+- [Screenshot evidence](screenshots/05-wazuh/README.md)
+
+**Status:** Existing Wazuh authentication and sudo processing verified through controlled activity and manual matching. Custom correlation rules and automatic response have not been validated. The September 30 Mac-origin failure/success exercise is still in progress.
+
+The sections below preserve the original Splunk phase and its architecture.
 
 ---
 
