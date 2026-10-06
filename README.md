@@ -40,7 +40,7 @@ This README contains the full walkthrough, screenshots, investigation findings, 
 
 ## Lab architecture
 
-The project developed in two phases. These describe the documented configurations, not a claim that both platforms are currently running simultaneously.
+I developed this project developed in two phases. These describe the documented configurations, not a claim that both platforms are currently running simultaneously.
 
 | Component | Role |
 |---|---|
@@ -73,7 +73,7 @@ During the recorded tests, the Mac used `172.20.10.2` and Kali used `172.20.10.5
 
 | Tool | What I used it for |
 |---|---|
-| UTM | Running Kali on the Mac |
+| UTM | Running Kali on my Mac |
 | Kali Linux and OpenSSH | Generating and inspecting controlled authentication activity |
 | Splunk Enterprise and SPL | Searching and investigating indexed events |
 | Splunk Universal Forwarder | Transporting Kali logs to Splunk |
