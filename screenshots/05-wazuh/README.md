@@ -38,23 +38,13 @@ Capture: 2026-09-27 at 10.59.09.
 
 ![Successful loopback event in Wazuh](06-loopback-success-wazuh.png)
 
-## Docker context and stalled server diagnostics
+## Docker Desktop — Wazuh containers running
 
-Capture: 2026-09-29 at 14.52.14.
+Capture: October 6, 2026 at 15:57:06 (supplied filename).
 
-![Docker context and stalled server diagnostics](07-docker-diagnostics.png)
+![Docker Desktop showing the three Wazuh containers running](docker-desktop-running-2026-10-06.png)
 
-## Docker Desktop during the outage
-
-Capture: 2026-09-29 at 14.53.55.
-
-![Docker Desktop during the outage](08-docker-desktop.png)
-
-## Running containers after recovery
-
-Capture: 2026-09-29 at 15.27.51.
-
-![Running containers after recovery](09-docker-recovered.png)
+The Docker engine and the dashboard, manager, and indexer containers show running indicators. This image replaces the three older Docker screenshots and documents the October 6 state, not the September 29 outage or recovery. It does not by itself verify end-to-end log ingestion.
 
 ## Failed password with Kali as source
 

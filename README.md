@@ -445,20 +445,13 @@ The failed-login source was `172.20.10.5`, not the expected Mac address `.2`. `h
 
 None of these alone proves every expected log source is collected without loss.
 
-### Recovery screenshots
+### Updated Docker screenshot — October 6, 2026
 
-<details>
-<summary>Inspect Docker diagnostics and the outage view</summary>
+![Docker Desktop showing the three Wazuh containers running](screenshots/05-wazuh/docker-desktop-running-2026-10-06.png)
 
-![Docker diagnostics during the outage](screenshots/05-wazuh/07-docker-diagnostics.png)
+This October 6 capture shows Docker's engine running and the expanded `single-node` project with `wazuh.dashboard-1`, `wazuh.manager-1`, and `wazuh.indexer-1` displaying running indicators. The visible mappings include dashboard `443:5601`, manager `1514:1514`, and indexer `9200:9200`.
 
-![Docker Desktop during the outage](screenshots/05-wazuh/08-docker-desktop.png)
-
-</details>
-
-![Running containers after recovery](screenshots/05-wazuh/09-docker-recovered.png)
-
-Container recovery was followed by dashboard access and verification of a fresh sudo event. The screenshot of running containers alone does not establish successful event ingestion.
+This replaces the older Docker screenshots. It records the container state at this capture; the September 29 troubleshooting account above remains a historical record. Running containers alone do not prove dashboard accessibility, agent connectivity, or fresh event ingestion.
 
 ## Commands explained
 
