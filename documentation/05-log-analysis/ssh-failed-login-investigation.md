@@ -36,7 +36,7 @@ sudo systemctl start ssh
 I then checked the SSH service exposure using Nmap:
 
 ```bash
-nmap -sS -p 22,80,443 localhost
+sudo nmap -sS -p 22,80,443 localhost
 ```
 
 The scan showed that SSH was accessible on:
@@ -228,8 +228,6 @@ This investigation provided hands-on practice with:
 * SOC investigation documentation
 
 ---
-
-## Conclusion
 
 ## Conclusion
 
